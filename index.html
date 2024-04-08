@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliação de Produto</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/extends.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="product">
+          <img class="product-img" src="assets/Product.png">
+        </div>
+        <div class="content flex column">
+          <div class="review flex column">
+            <div class="title">
+              <h1 class="heading">Avalie o produto</h1>
+              <p class="body">O que você achou do produto <span class="purple-dark">Smartwatch Amazfit Bip U Pro</span>?</p>
+            </div>
+          </div>
+          <div class="rating flex column">
+            <div class="stars flex space-bewteen width-100">
+              <img id="star" src="assets/Star.svg" onclick="toggleMode(this)">
+              <img id="star" src="assets/Star.svg" onclick="toggleMode(this)">
+              <img id="star" src="assets/Star.svg" onclick="toggleMode(this)">
+              <img id="star" src="assets/Star.svg" onclick="toggleMode(this)">
+              <img id="star" src="assets/Star.svg" onclick="toggleMode(this)">
+            </div>
+            <div class="helper-text flex space-bewteen">
+              <p class="span">Ruim</p>
+              <p class="span">Ótimo</p>
+            </div>
+          </div>
+          <a href="next.html"><button class="button__primary body-bold flex space-bewteen">
+            <p class="body-bold">Confirmar</p>
+            <img src="assets/Arrow-L.svg" alt="">
+          </button></a>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="scripts/stars.js"></script>
+</html>

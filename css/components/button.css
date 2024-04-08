@@ -1,0 +1,18 @@
+.button__primary {
+  width: 314px;
+  padding: 16px 20px;
+  gap: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--purple);
+}
+
+.button__primary:hover {
+  background-color: var(--purple-dark);
+  transition: all 0.3s ease-out
+}
+
+.button__primary:disabled {
+  opacity: 50%;
+  background-color: var(--purple);
+}

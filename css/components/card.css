@@ -1,0 +1,44 @@
+.card {
+  margin: 170px auto;
+  width: 410px;
+  border-radius: 20px;
+  background-color: var(--gray-100);
+}
+
+.product {
+  position: relative;
+  width: 410px;
+  height: 184px;
+  border-radius: 20px 20px 0 0;
+  background: var(--gradient-light);
+}
+
+.product-img {
+  position: absolute;
+  left: 32%;
+  bottom: 0%;
+}
+
+.arrow-r {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+
+.content {
+  padding: 48px;
+  gap: 40px;
+}
+
+.review {
+  gap: 32px;
+}
+
+.title {
+  text-align: center;
+  gap: 8px;
+}
+
+.rating {
+  gap: 4px;
+}
